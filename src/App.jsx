@@ -260,7 +260,6 @@ function TitleScreen({ total, onSelectMode }) {
           />
           <ModeButton
             title="本番形式 (60問)"
-            sub="公式重みに沿って毎回ランダム抽出"
             badge="EXAM"
             highlight
             onClick={() => onSelectMode('exam')}
